@@ -1,0 +1,19 @@
+# Python
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+
+# Databases
+*.db
+
+# Environment files (real secrets) — keep .env.example tracked
+.env
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+
+# Editor/OS
+.DS_Store

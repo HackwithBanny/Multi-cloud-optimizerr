@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm *)",
+      "Bash(grep -E \"cloud_broker\\\\.db$\")",
+      "Bash(grep -E \"frontend/\\\\.env$\")",
+      "Bash(./.venv312/Scripts/python.exe -c \"import pydantic_settings\")",
+      "Bash(./.venv312/Scripts/python.exe -c ' *)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(npm install *)",
+      "Bash(perl -v)",
+      "Bash(node \"C:\\\\Users\\\\rajee\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Swati-personal-Major-main---Copy\\\\a4a738e3-d19e-4cfc-8226-42054039f3f0\\\\scratchpad\\\\dark_mode_pass.js\" \"$\\(pwd\\)/pages\")",
+      "Bash(node \"C:\\\\Users\\\\rajee\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Swati-personal-Major-main---Copy\\\\a4a738e3-d19e-4cfc-8226-42054039f3f0\\\\scratchpad\\\\dark_mode_pass.js\" \"$\\(pwd\\)/components\")",
+      "Bash(git checkout *)",
+      "Bash(grep -E \"\\\\.tsx?$|\\\\.css$\")",
+      "Bash(npm run *)",
+      "Bash(curl -s http://127.0.0.1:8000/decisions)",
+      "Bash(npx tsc *)",
+      "Bash(node -p \"require\\('./node_modules/tailwindcss/package.json'\\).version\")",
+      "Bash(node -p \"require\\('./node_modules/@tailwindcss/vite/package.json'\\).version\")",
+      "Bash(curl -s \"http://localhost:5173/src/index.css\")",
+      "Bash(curl -s \"http://localhost:5173/@vite/client\" -o /dev/null -w \"vite client status: %{http_code}\\\\n\")",
+      "Bash(node -e ' *)",
+      "Read(//tmp/**)",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>console.log\\(JSON.stringify\\(JSON.parse\\(d\\), null, 2\\)\\)\\)\")",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/ai/decisions/d539a03f-4e65-4784-acaa-9a0e0803f820/second-opinion)",
+      "Bash(powershell -Command \"Stop-Process -Id 31908 -Force\")",
+      "Bash(curl -s -o /dev/null -w \"backend status: %{http_code}\\\\n\" http://127.0.0.1:8000/health --max-time 3)",
+      "Bash(curl -s -o /dev/null -w \"frontend status: %{http_code}\\\\n\" http://127.0.0.1:5173/ --max-time 3)",
+      "Bash(curl -s -o /dev/null -w \"attempt1: %{http_code}\\\\n\" http://127.0.0.1:5173/ --max-time 3)",
+      "Bash(curl -s -o /dev/null -w \"attempt2: %{http_code}\\\\n\" http://localhost:5173/ --max-time 3)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/ --max-time 3)",
+      "Bash(taskkill //F //IM node.exe)"
+    ]
+  }
+}
